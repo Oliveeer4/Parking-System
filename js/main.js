@@ -16,9 +16,7 @@ function cadastrarVeiculo(e){
         minutos: time.getMinutes(),
         segundos: time.getSeconds()
     }
-    // localStorage.setItem('teste', 'my aplication');
-    //console.log(localStorage.getItem('teste'))
-    //localStorage.removeItem('teste')
+
     if(localStorage.getItem('patio2') == null){
         let carros = [];
         carros.push(carro);
